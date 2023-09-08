@@ -1,0 +1,185 @@
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: #fff;
+}
+/* navigation */
+.nav-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.accent-logo {
+  color: #2e2f42;
+}
+
+.nav-item {
+  color: #2e2f42;
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+/* contacts */
+.contacts {
+  font-style: normal;
+}
+.contacts-item {
+  color: #434455;
+}
+.contacts-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* section 1 */
+.hero-section {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-button {
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* section 2 */
+.second-section-advantage {
+  background-color: #fff;
+}
+
+.advantage-item {
+  color: #2e2f42;
+}
+.advantage-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.advantage-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* section 3 */
+.third-section-our-team {
+  background-color: #f4f4fd;
+}
+.our-team-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.our-team-item {
+  background-color: #fff;
+}
+
+.our-team-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.our-team-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* section 4 */
+.fourth-section-our-portfolio {
+  background-color: #fff;
+}
+.our-portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.our-portfolio-item {
+  background-color: #fff;
+}
+.our-portfolio-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.our-portfolio-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* footer */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
