@@ -9,53 +9,55 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
     <!-- styles -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <header class="header">
-
-
-        <nav>
-            <a class="nav-logo" href="./index.html">Web<span class="accent-logo">Studio</span>
-            </a>
-            <ul>
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Studio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-        <address class="contacts">
-            <ul>
-                <li class="contacts-item">
-                    <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="contacts-item">
-                    <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
-        </address>
-
-
+        <div class="container header-inner">
+            <nav class="header-nav">
+                <a class="nav-logo" href="./index.html">Web<span class="accent-logo">Studio</span>
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Studio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <address class="contacts">
+                <ul class="contacts-menu">
+                    <li class="contacts-item">
+                        <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="contacts-item">
+                        <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </header>
 
     <main>
         <section class="hero-section">
-            <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <button class="hero-button" type="button">Order Service</button>
+            <div class="container hero-inner">
+                <h1 class="hero-title">Effective Solutions for Your Business</h1>
+                <button class="hero-button" type="button">Order Service</button>
+            </div>
         </section>
 
-
+        </div>
         <section class="second-section-advantage">
-            <h2 class="">Our advantage</h2>
+            <h2 class="visually-hidden">Our advantage</h2>
             <ul>
                 <li class="advantage-item">
                     <h3 class="advantage-title">Strategy</h3>
@@ -94,24 +96,24 @@
             <h2 class="our-team-title">Our Team</h2>
             <ul>
                 <li class="our-team-item">
-                    <img src="./images/Card1.jpg" alt="Photo1" width="264" />
+                    <img class="our-team-photo" src="./images/Card1.jpg" alt="Photo1" width="264" />
                     <h3 class="our-team-subtitle">Mark Guerrero</h3>
                     <p class="our-team-text">Product Designer</p>
                 </li>
                 <li class="our-team-item">
-                    <img src="./images/Card2.jpg" alt="Photo2" width="264" />
+                    <img class="our-team-photo" src="./images/Card2.jpg" alt="Photo2" width="264" />
                     <h3 class="our-team-subtitle">Tom Ford</h3>
                     <p class="our-team-text">Frontend Developer</p>
                 </li>
 
                 <li class="our-team-item">
-                    <img src="./images/Card3.jpg" alt="Photo3" width="264" />
+                    <img class="our-team-photo" src="./images/Card3.jpg" alt="Photo3" width="264" />
                     <h3 class="our-team-subtitle">Camila Garcia</h3>
                     <p class="our-team-text">Marketing</p>
                 </li>
 
                 <li class="our-team-item">
-                    <img src="./images/Card4.jpg" alt="Photo4" width="264" />
+                    <img class="our-team-photo" src="./images/Card4.jpg" alt="Photo4" width="264" />
                     <h3 class="our-team-subtitle">Daniel Wilson</h3>
                     <p class="our-team-text">UI Designer</p>
                 </li>
