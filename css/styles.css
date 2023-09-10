@@ -160,8 +160,14 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.advantage-list {
+  display: flex;
+  gap: 24px;
+}
 .advantage-item {
   color: #2e2f42;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .advantage-title {
   color: #2e2f42;
@@ -169,6 +175,7 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .advantage-text {
   color: #434455;
