@@ -146,7 +146,7 @@ a {
 /* section 2 */
 .second-section-advantage {
   background-color: #fff;
-  padding: 96px 0;
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -198,13 +198,20 @@ a {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
 .our-team-item {
   background-color: #fff;
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-.our-team-photo {
-  margin-bottom: 32px;
+
+.name-job {
+  padding: 32px 0;
 }
+
 .our-team-subtitle {
   color: #2e2f42;
   font-size: 20px;
@@ -212,17 +219,19 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 .our-team-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 /* section 4 */
 .fourth-section-our-portfolio {
   background-color: #fff;
-  padding: 96px 0;
+  padding: 120px 0;
 }
 .our-portfolio-title {
   color: #2e2f42;
@@ -231,10 +240,21 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .our-portfolio-item {
   background-color: #fff;
+  flex-basis: calc((100% - 72px) / 4);
+}
+.project-card {
+  padding: 32px 0;
 }
 .our-portfolio-subtitle {
   color: #2e2f42;
@@ -242,6 +262,7 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .our-portfolio-text {
   color: #434455;
@@ -252,12 +273,24 @@ a {
 /* footer */
 .footer {
   background-color: #2e2f42;
-  padding: 101.5px 0 100px;
+  padding: 100px 0 100px;
 }
 .footer-logo {
+  display: inline-block;
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.footer-logo-style {
   color: #f4f4fd;
 }
 .footer-text {
+  width: 264px;
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
